@@ -221,3 +221,23 @@ footer {
         font-size: 0.95rem;
     }
 }
+/* ===============================
+   MOBILE NAV FIX (IMPORTANT)
+================================ */
+@media (max-width: 768px) {
+
+    nav {
+        position: static; /* remove fixed on mobile */
+        text-align: center;
+    }
+
+    .hero {
+        padding-top: 120px; /* normal spacing */
+    }
+
+    .profile-pic {
+        width: 120px;
+        margin-top: 20px;
+    }
+}
+
